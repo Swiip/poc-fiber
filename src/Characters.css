@@ -1,0 +1,30 @@
+.Characters {
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Characters-entry {
+  border: 3px solid #d7d7d7;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.Characters-entry img {
+  height: 60px;
+}
+
+.Characters-entry button {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 28px;
+}
